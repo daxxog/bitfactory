@@ -1,4 +1,4 @@
-bitfactory
+[bitfactory](https://github.com/daxxog/bitfactory)
 ==========
 
 Lightweight JavaScript make.
