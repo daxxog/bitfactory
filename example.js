@@ -1,41 +1,13 @@
-bitfactory
-==========
+/* bitfactory / example.js
+ * bitfactory example
+ * (c) 2013 David (daXXog) Volm ><> + + + <><
+ * Released under Apache License, Version 2.0:
+ * http://www.apache.org/licenses/LICENSE-2.0.html  
+ */
 
-Lightweight JavaScript make.
-
-Install
--------
-```bash
-npm install https://github.com/daxxog/bitfactory/tarball/master
-```
-
-Example (basic)
----------
-
-make.js file:
-```javascript
-//make.js
-require('bitfactory').make({ //routes
-    "": function(err, results) {
-        console.log('normal make!');
-    }
-});
-```
-
-Running
-```bash
-node make
-```
-
-Example (advanced)
----------
-
-make.js file:
-```javascript
-//make.js
 var ms; //counter for timing stuff
 
-require('bitfactory').make({ //routes
+require('./BF').make({ //routes
     "": function(err, results) {
         console.log('normal make!');
     },
@@ -84,12 +56,3 @@ require('bitfactory').make({ //routes
         }
     }
 });
-```
-
-Running
-```bash
-node make
-node make deploy
-node make custom
-```
-```
