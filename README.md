@@ -5,6 +5,12 @@ Lightweight JavaScript make.
 
 Install
 -------
+stable
+```bash
+npm install bitfactory
+```
+
+edge
 ```bash
 npm install https://github.com/daxxog/bitfactory/tarball/master
 ```
