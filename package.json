@@ -3,7 +3,7 @@
     "description" : "Lightweight JavaScript make.",
     "homepage"    : "https://github.com/daxxog/bitfactory",
     "main"        : "BF.js",
-    "version"     : "0.0.1",
+    "version"     : "0.0.2",
     "engines": { "node" : ">=0.8.15" },
     "maintainers": [{
         "name"  : "David Volm",
