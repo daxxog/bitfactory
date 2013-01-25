@@ -15,6 +15,6 @@
         "url"  : "https://github.com/daxxog/bitfactory.js.git"
     }],
     "dependencies": {
-        "async" : "*"
+        "async": "https://github.com/daxxog/async/archive/safe-auto2.tar.gz"
     }
 }
