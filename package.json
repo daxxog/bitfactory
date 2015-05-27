@@ -1,20 +1,24 @@
 {
-    "name"        : "bitfactory",
-    "description" : "Lightweight JavaScript make.",
-    "homepage"    : "https://github.com/daxxog/bitfactory",
-    "main"        : "BF.js",
-    "version"     : "0.0.3",
-    "engines": { "node" : ">=0.8.15" },
-    "maintainers": [{
-        "name"  : "David Volm",
-        "email" : "david@volminator.com",
-        "web"   : "http://daxxog.com/"
-    }],
-    "repository": {
-        "type" : "git",
-        "url"  : "https://github.com/daxxog/bitfactory.js.git"
-    },
-    "dependencies": {
-        "async": "https://github.com/daxxog/async/archive/safe-auto2.tar.gz"
+  "name": "bitfactory",
+  "description": "Lightweight JavaScript make.",
+  "homepage": "https://github.com/daxxog/bitfactory",
+  "main": "BF.js",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=0.8.15"
+  },
+  "maintainers": [
+    {
+      "name": "David Volm",
+      "email": "david@volminator.com",
+      "web": "http://daxxog.com/"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daxxog/bitfactory.js.git"
+  },
+  "dependencies": {
+    "async": "^1.0.0"
+  }
 }
